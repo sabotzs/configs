@@ -9,7 +9,6 @@ function parse_git_branch() {
 }
 setopt PROMPT_SUBST
 export PROMPT='%B%F{22}%2~%f%b%F{196}$(parse_git_branch)%f$ '
-#export PROMPT='%F{226}%n%f %B%F{22}%2~%f%b%F{196}$(parse_git_branch)%f$ '
 
 # Add colors for listed files
 export CLICOLOR=1
